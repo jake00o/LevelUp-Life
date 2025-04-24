@@ -1,0 +1,93 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #d7e1ec, #f0f4f8);
+  color: #333;
+}
+
+/* Title and header styles */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #2980b9;
+  margin-bottom: 0.2rem;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="date"] {
+  padding: 12px;
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.4);
+}
+
+/* Button styles */
+button {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px auto;
+  padding: 12px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Table layout */
+table {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  font-weight: 600;
+}
+
+/* Time counter summary */
+.total-time {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2ecc71;
+  margin-top: 10px;
+}
